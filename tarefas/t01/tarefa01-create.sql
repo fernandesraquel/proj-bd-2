@@ -1,12 +1,13 @@
 -- Tabela funcionario
 CREATE TABLE funcionario (
-  codigo SERIAL PRIMARY KEY,
-  nome VARCHAR(100) NOT NULL,
-  sexo CHAR(1),
-  dt_nasc DATE,
-  salario DECIMAL(10,2),
-  cod_depto INTEGER,
-  FOREIGN KEY (cod_depto) REFERENCES departamento(codigo)
+	codigo SERIAL PRIMARY KEY,
+	nome varchar(50),
+	sexo char(1),
+	dtNasc date,
+	salario decimal(10,2),
+	codSupervisor int,
+	cod_depto int,
+	FOREIGN KEY (cod_depto) REFERENCES funcionario(codigo) on delete set null on update cascade
 );
 
 -- Tabela departamento
@@ -37,9 +38,10 @@ CREATE TABLE atividade (
   data_fim DATE
 );
 
--- Tabela atividade_projeto (relacionamento muitos-para-muitos)
+-- Tabela de relacionamento entre atividade e projeto e responsavel
 CREATE TABLE atividade_projeto (
+  PRIMARY KEY (cod_projeto, cod_atividade),
   cod_projeto INTEGER REFERENCES projeto(codigo),
   cod_atividade INTEGER REFERENCES atividade(codigo),
-  PRIMARY KEY (cod_projeto, cod_atividade)
+  cod_responsavel INTEGER REFERENCES funcionario(codigo)
 );
