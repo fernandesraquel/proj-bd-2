@@ -1,3 +1,4 @@
+-- Tabela funcionario
 CREATE TABLE funcionario(
   codigo SERIAL PRIMARY KEY,
   nome VARCHAR(200) NOT NULL, 
@@ -6,6 +7,7 @@ CREATE TABLE funcionario(
   salario DECIMAL(10,2)
 );
 
+-- Tabela departamento
 CREATE TABLE departamento(
   codigo SERIAL PRIMARY KEY,
   descricao VARCHAR(500), 
@@ -18,7 +20,7 @@ CREATE TABLE departamento(
 ALTER TABLE funcionario ADD COLUMN cod_dep INT;
 ALTER TABLE funcionario ADD FOREIGN KEY (cod_dep) REFERENCES departamento(codigo);
 
-
+-- Tabela projeto
 CREATE TABLE projeto (
   codigo SERIAL PRIMARY KEY,
   nome VARCHAR(100) NOT NULL, 
@@ -33,6 +35,7 @@ CREATE TABLE projeto (
   
 );
 
+-- Tabela atividade
 CREATE TABLE atividade(
   codigo SERIAL PRIMARY KEY, 
   nome VARCHAR(100) NOT NULL, 
@@ -44,6 +47,7 @@ CREATE TABLE atividade(
   FOREIGN KEY(cod_responsavel) REFERENCES funcionario(codigo)
 );
 
+-- Tabela de relacionamento entre atividade e projeto
 CREATE TABLE atividade_projeto(
   cod_projeto INT, 
   cod_atividade INT,
