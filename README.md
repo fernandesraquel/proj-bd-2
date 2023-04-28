@@ -5,3 +5,5 @@ Repositório utilizado para as tarefas do componente curricular 'Projeto e Admin
 Discente: Raquel Lima Fernandes  
 Matrícula: 20190012546   
 E-mail: raquel.lima.072@ufrn.edu.br
+
+Diretório[Clique aqui](tarefas/tarefa01.md)
