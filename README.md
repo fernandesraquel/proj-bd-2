@@ -1,5 +1,7 @@
-# Avaliação 01 - Projeto e Administração de Banco de Dados.
+# Projeto e Administração de Banco de Dados
 
-Matrícula: 20190012546  
-Nome: Raquel Lima Fernandes  
-Email: raquel.lima.072@ufrn.edu.br
+Repositório utilizado para as tarefas do componente curricular 'Projeto e Administração de Banco de Dados'.
+ 
+Discente: Raquel Lima Fernandes  
+Matrícula: 20190012546   
+E-mail: raquel.lima.072@ufrn.edu.br
