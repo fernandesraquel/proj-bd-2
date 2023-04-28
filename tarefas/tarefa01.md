@@ -1,5 +1,7 @@
-* Scripts de criação [Clique aqui](t01/tarefa01-create.sql) .  
+# Scripts
 
-* Scripts de povoamento [Clique aqui](t01/tarefa01-inserts.sql) .  
+* Criação [Clique aqui](t01/tarefa01-create.sql) .  
 
-* Scripts das consultas [Clique aqui](t01/tarefa01-consultas.sql) .
+* Povoamento [Clique aqui](t01/tarefa01-inserts.sql) .  
+
+* Consultas [Clique aqui](t01/tarefa01-consultas.sql) .
