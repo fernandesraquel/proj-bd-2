@@ -1,4 +1,4 @@
-INSERT INTO funcionario (nome, sexo, dt_nasc, salario, cod_dep) VALUES
+INSERT INTO funcionario (nome, sexo, dt_nasc, salario, cod_depto) VALUES
 ('João da Silva Ribeiro', 'M', '1990-01-01', 5000.00, NULL),
 ('Maria de Souza Ferreira', 'F', '1992-05-12', 4500.00, NULL),
 ('Pedro Nascimento de Araújo', 'M', '1985-10-20', 6500.00, NULL),
@@ -16,13 +16,13 @@ INSERT INTO departamento (descricao, cod_gerente) VALUES
 ('Depatamento de Tecnologia da Informação', 5);
 
 
-UPDATE funcionario SET cod_dep = 1 WHERE codigo = 1;
-UPDATE funcionario SET cod_dep = 2 WHERE codigo = 2;
-UPDATE funcionario SET cod_dep = 3 WHERE codigo = 3;
-UPDATE funcionario SET cod_dep = 4 WHERE codigo = 4;
-UPDATE funcionario SET cod_dep = 5 WHERE codigo = 5;
-UPDATE funcionario SET cod_dep = 2 WHERE codigo = 6;
-UPDATE funcionario SET cod_dep = 1 WHERE codigo = 7;
+UPDATE funcionario SET cod_depto = 1 WHERE codigo = 1;
+UPDATE funcionario SET cod_depto = 2 WHERE codigo = 2;
+UPDATE funcionario SET cod_depto = 3 WHERE codigo = 3;
+UPDATE funcionario SET cod_depto = 4 WHERE codigo = 4;
+UPDATE funcionario SET cod_depto = 5 WHERE codigo = 5;
+UPDATE funcionario SET cod_depto = 2 WHERE codigo = 6;
+UPDATE funcionario SET cod_depto = 1 WHERE codigo = 7;
 
 INSERT INTO projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio, data_fim) VALUES
 ('Lançamento de Novos Produtos', 'Desenvolver novos produtos para o mercado', 2, 4, '2023-05-10', '2023-12-31'),
@@ -43,4 +43,4 @@ INSERT INTO atividade_projeto(cod_projeto, cod_atividade) VALUES
 (2, 5),
 (3, 1),
 (4, 2),
-(5, 4)
+(5, 4);
