@@ -4,4 +4,4 @@
 
 * Povoamento [Clique aqui](t01/tarefa01-inserts.sql) .  
 
-* Consultas [Clique aqui](t01/tarefa01-consultas.sql) .
+* Consultas [Clique aqui](t01/scripts/) .
