@@ -49,8 +49,10 @@ CREATE TABLE atividade(
 CREATE TABLE atividade_projeto(
   cod_projeto INT, 
   cod_atividade INT,
-
+  cod_responsavel INT,
+  
   PRIMARY key(cod_projeto, cod_atividade),
   FOREIGN KEY(cod_projeto) REFERENCES projeto(codigo),
-  FOREIGN KEY(cod_atividade) REFERENCES atividade(codigo)
+  FOREIGN KEY(cod_atividade) REFERENCES atividade(codigo),
+  FOREIGN KEY(cod_responsavel) REFERENCES funcionario(codigo) 
 );
