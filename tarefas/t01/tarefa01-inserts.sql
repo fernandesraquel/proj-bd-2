@@ -38,9 +38,9 @@ INSERT INTO atividade(nome, descricao, cod_responsavel, data_inicio, data_fim) V
 ('Anúncio das vagas e divulgação da empresa para potenciais candidatos', 'Triagem de currículos e realização de entrevistas', 2, '2023-05-10', '2023-05-31'),
 ('Identificação das necessidades e requisitos para o sistema de gerenciamento de projetos', 'Avaliação e ajustes contínuos no sistema para garantir sua efetividade', 1, '2023-05-10', '2023-05-31');
 
-INSERT INTO atividade_projeto(cod_projeto, cod_atividade) VALUES
-(1, 3),
-(2, 5),
-(3, 1),
-(4, 2),
-(5, 4);
+INSERT INTO atividade_projeto(cod_projeto, cod_atividade, cod_responsavel) VALUES
+(1, 3, 3),
+(2, 5, 5),
+(3, 1, 4),
+(4, 2, 2),
+(5, 4, 1);
