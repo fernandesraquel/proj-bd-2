@@ -1,6 +1,6 @@
 <div style="display: inline_block"><br>
 
-<img align="right" height="150" style="border-radius:50px;" src="image/image_bd.png">
+<img align="right" height="120" style="border-radius:50px;" src="image/image_bd.png">
 
 # Projeto e Administração de Banco de Dados
 
