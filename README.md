@@ -32,7 +32,7 @@ E-mail: raquel.lima.072@ufrn.edu.br
              Definir o ambiente necessário para sua aplicação utilizando um Dockerfile (que pode ser reproduzido em qualquer lugar que tenha Docker instalado);
         </li>
         <li>
-            Definir no arquivo .yml  quais serviços são essenciais para sua aplicação e a relação entre elas.
+            Definir no arquivo <em>.yml</em>  quais serviços são essenciais para sua aplicação e a relação entre elas;
         </li>
         <li>
             Executar o comando <em>docker-compose up</em> para que seu ambiente seja criado e configurado.
