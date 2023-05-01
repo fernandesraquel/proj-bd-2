@@ -8,9 +8,8 @@ services:
       - ./data/db:/var/lib/postgresql/data
     environment:
       - POSTGRES_DB=avaliacao_db
-      - POSTGRES_USER=raquelima
-      - POSTGRES_PASSWORD=raquel123
-    restart: always
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=senha
     ports:
       - "5400:5432"
     networks:
