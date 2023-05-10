@@ -13,6 +13,7 @@ E-mail: raquel.lima.072@ufrn.edu.br
 # Diretórios 
 
 * [Tarefa 01](tarefas/t01/tarefa01.md) 
+* [Tarefa 02](tarefas/t02/tarefa02.md) 
 </div>
 
 # Tecnologias utilizadas
