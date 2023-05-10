@@ -1,7 +1,7 @@
 # Scripts do esquema relacional
 
-* [Criação](tarefa01-create.sql)  
+* [Criação](equipes_creates_postgres.sql)  
 
-* [Povoamento](tarefa01-inserts.sql) 
+* [Povoamento](equipes_inserts_postgres.sql) 
 
 * [Consultas resolvidas](scripts/)
