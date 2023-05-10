@@ -1,4 +1,4 @@
-/* Q05. Responda as perguntas: 
+### Q05. Responda as perguntas: 
 
 a) Explique os problemas de termos valores nulos nos dados.
  
