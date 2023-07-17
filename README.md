@@ -14,6 +14,7 @@ E-mail: raquel.lima.072@ufrn.edu.br
 
 * [Tarefa 01](tarefas/t01/tarefa01.md) 
 * [Tarefa 02](tarefas/t02/tarefa02.md) 
+* [Tarefa 03](tarefas/t03/tarefa03.md) 
 </div>
 
 # Tecnologias utilizadas
