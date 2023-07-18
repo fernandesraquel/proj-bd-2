@@ -7,4 +7,4 @@ RUN npm install
 
 COPY . /frameworkORM
 
-CMD [ "node", "listar_atividades.js" ]
+CMD [ "node", "index.js" ]
